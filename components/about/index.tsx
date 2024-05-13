@@ -31,7 +31,7 @@ function About() {
         I love the feeling of figuring out a solution to a problem, that is why
         programming aligns so well to how I am as a person. My core stack is{" "}
         <span className="font-bold underline">
-          React, Next.js, Node.js, and MongoDB.
+          React, Next.js, Node.js, and Prisma.
         </span>
       </p>
     </motion.section>

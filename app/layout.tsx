@@ -48,7 +48,7 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <div className="relative flex flex-col h-screen">
-              <main className="container mx-auto max-w-7xl pt-28 sm:pt-36  px-4 flex-grow">
+              <main className="container mx-auto max-w-7xl pt-28 sm:pt-36 px-4 flex-grow">
                 <Navbar />
                 {children}
                 <Footer />

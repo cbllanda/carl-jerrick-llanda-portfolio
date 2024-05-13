@@ -1,7 +1,9 @@
 import React from "react";
+import { useTheme } from "next-themes";
 import { GraduationCap, Star } from "lucide-react";
 
 import curate from "@/public/curate.jpeg";
+import reckon from "@/public/reckon.png";
 
 export const links = [
   {
@@ -39,18 +41,11 @@ export const projectsData = [
     imageUrl: curate,
   },
   {
-    title: "Curate",
+    title: "Reckon",
     description:
-      "A web-based blog app for university students. It has abundance of features such as rich text editor.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: curate,
-  },
-  {
-    title: "Curate",
-    description:
-      "A web-based blog app for university students. It has abundance of features such as rich text editor.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: curate,
+      "A web-based application that calculates the CPU scheduling process inputted by the user based on the selected algorithm.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "NextUI"],
+    imageUrl: reckon,
   },
 ] as const;
 
@@ -60,6 +55,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "PHP",
+  "Node.js",
   "React",
   "Next.js",
   "TailwindCSS",
